@@ -9,7 +9,7 @@ setup(
         'torch',
         'kornia',
         'omegaconf',
-        'pytorch-lightning',
+        #'pytorch-lightning', # to prevent weird issues during docker install
         'torchvision',
         'tqdm',
         'torchmetrics',
