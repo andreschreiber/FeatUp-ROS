@@ -50,6 +50,7 @@ class DINOv2UpFeatBackbone(nn.Module):
         
         return {
             "features": self.upsampler(model_out['patch_tokens'], image), 
+            "patch_tokens": model_out['patch_tokens'],
             "cls_token": model_out["cls_token"]
         }
 
