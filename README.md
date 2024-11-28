@@ -1,3 +1,6 @@
+# My fork of FeatUp
+Minor modifications made to use for robotics.
+
 # FeatUp: A Model-Agnostic Framework for Features at Any Resolution
 ###  ICLR 2024
 
